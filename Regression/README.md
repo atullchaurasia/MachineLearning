@@ -1,7 +1,3 @@
-Here’s an updated version of the `README.md` without the **Gradient Descent** part:
-
----
-
 # Regression Models
 
 This repository contains implementations of various regression models including **Simple Linear Regression**, **Multiple Linear Regression**, and **Polynomial Regression**. The models are evaluated using metrics such as **Mean Squared Error (MSE)** and **R² (Coefficient of Determination)**.
