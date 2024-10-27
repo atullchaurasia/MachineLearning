@@ -61,17 +61,6 @@ The models are evaluated using two key metrics:
   - R²: 0.9944
   - MSE: 25.29
 
-### Visualizations
-
-The repository includes scatter plots and residual plots for each regression model to visualize how well the models fit the data.
-
-#### Example Visualization for Simple Linear Regression:
-
-![Simple Linear Regression Plot](images/simple_linear_regression.png)
-
-#### Example Visualization for Polynomial Regression:
-
-![Polynomial Regression Plot](images/polynomial_regression.png)
 
 ### How to Run
 
@@ -108,7 +97,3 @@ You can install them using the following command:
 ```bash
 pip install numpy pandas matplotlib scikit-learn
 ```
-
----
-
-This revised `README.md` omits the **Gradient Descent** section while still providing comprehensive details on each type of regression model, mathematical formulas, and evaluation metrics. You can add any visualizations or files to the relevant sections. Let me know if you'd like any further modifications!
