@@ -18,68 +18,34 @@ This repository contains implementations of various regression models including 
 Regression analysis is a statistical method used to model the relationship between a dependent variable and one or more independent variables. This project demonstrates the use of three types of regression models.
 
 ### Mathematical Formulations:
-
-1. **Linear Regression**:  
-   The hypothesis function \( h_\theta(x) \) is represented as:
-   \[
-   h_\theta(x) = \theta_0 + \theta_1 x
-   \]
-   where:
-   - \( \theta_0 \) is the intercept,
-   - \( \theta_1 \) is the coefficient for the independent variable \( x \).
-
-2. **Multiple Linear Regression**:  
-   For multiple features \( x_1, x_2, x_3, \dots, x_n \), the hypothesis function becomes:
-   \[
-   h_\theta(x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \dots + \theta_n x_n
-   \]
-   This model predicts the dependent variable using multiple independent variables.
-
-3. **Polynomial Regression**:  
-   Polynomial regression extends linear regression by adding powers of the independent variable:
-   \[
-   h_\theta(x) = \theta_0 + \theta_1 x + \theta_2 x^2 + \dots + \theta_n x^n
-   \]
-   This allows the model to capture non-linear relationships.
+ 
+   ![image](https://github.com/user-attachments/assets/151b133b-af11-406f-bc0b-e6f49ed74421)
+   ![image](https://github.com/user-attachments/assets/77aabe05-a595-4a92-b303-df3183f07e09)
+   
 
 ## Models Implemented
 
 ### Simple Linear Regression
 
-In **Simple Linear Regression**, we model the relationship between one independent variable \( x \) and one dependent variable \( y \).
+In **Simple Linear Regression**, we model the relationship between one independent variable x and one dependent variable y.
 
 The model fits a line through the data points that minimizes the sum of squared differences between the actual and predicted values of the dependent variable.
 
 ### Multiple Linear Regression
 
-In **Multiple Linear Regression**, we extend the simple linear regression model to handle multiple features \( x_1, x_2, x_3, \dots, x_n \). The model can predict the dependent variable using multiple independent variables simultaneously.
+In **Multiple Linear Regression**, we extend the simple linear regression model to handle multiple features x1, x2, x3,...., xn. The model can predict the dependent variable using multiple independent variables simultaneously.
 
 ### Polynomial Regression
 
 **Polynomial Regression** allows us to fit a non-linear model to the data by using polynomial features.
 
-For example, a second-degree polynomial model has the form:
-\[
-h_\theta(x) = \theta_0 + \theta_1 x + \theta_2 x^2
-\]
-This model fits quadratic curves to the data instead of straight lines.
 
 ### Evaluation Metrics
 
 The models are evaluated using two key metrics:
 
-1. **Mean Squared Error (MSE)**:
-   \[
-   MSE = \frac{1}{m} \sum_{i=1}^{m} (y^{(i)} - \hat{y}^{(i)})^2
-   \]
-   where \( \hat{y}^{(i)} \) is the predicted value.
+![image](https://github.com/user-attachments/assets/3b6e4078-5271-44b9-acb0-a8226ba211b5)
 
-2. **R² Score**:
-   The R² score represents the proportion of variance explained by the model:
-   \[
-   R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
-   \]
-   where \( \bar{y} \) is the mean of the actual values.
 
 ### Results
 
