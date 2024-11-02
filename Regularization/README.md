@@ -100,7 +100,3 @@ Graphs and visualizations in the notebook provide insight into the effects of re
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-- **Your Name** - [Your Email](mailto:your-email@example.com)
-- **GitHub Profile:** [https://github.com/your-username](https://github.com/your-username)
